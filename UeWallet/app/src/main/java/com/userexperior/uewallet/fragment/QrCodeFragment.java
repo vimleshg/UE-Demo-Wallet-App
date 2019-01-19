@@ -90,14 +90,4 @@ public class QrCodeFragment extends Fragment implements Qr0.OnQr0Listener{
     public interface OnFragmentInteractionListener {
         void onFragmentInteraction(Uri uri);
     }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-        try {
-            //UserExperior.startScreen("HomeActivity");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 }

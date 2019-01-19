@@ -32,7 +32,9 @@ public class MainActivity extends AppCompatActivity
 
         setTitle("Login");
 
-        try { // 19.154691, 72.940880 == workloft 19.154023, 72.945204
+        try {
+            // 19.154691, 72.940880 == workloft 19.154023, 72.945204
+            // These are hardcoded lat, long, you can pass actual lat, long if your app uses gps
             UserExperior.setDeviceLocation(19.154023, 72.945204);
         } catch (Exception e) {
             e.printStackTrace();

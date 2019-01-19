@@ -65,19 +65,9 @@ public class PayToMerchantActivity extends AppCompatActivity {
 
             switch (position) {
                 case 0:
-                    try {
-                        //UserExperior.startScreen("Scan Code");
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
                     return QrCodeFragment.newInstance();
 
                 case 1:
-                    try {
-                        //UserExperior.startScreen("Mobile");
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
                     return MobileFragment.newInstance();
 
                 default:

@@ -28,7 +28,7 @@ public class Main2Activity extends AppCompatActivity {
                     try {
                         UserExperior.startScreen("Home Tab");
 
-                        UserExperior.setCustomTag("%$#@^&*()_+,,,,,,!~|}{:?<>|*-+/", UeCustomType.MSG);
+                        UserExperior.setCustomTag("Pass your app message/any error message here here", UeCustomType.MSG);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -38,7 +38,7 @@ public class Main2Activity extends AppCompatActivity {
                     try {
                         UserExperior.startScreen("Dashboard Tab");
 
-                        UserExperior.setCustomTag("%$#@^&*(,,,,,)_+!~|}{:?<>|*-+/ askfjlajfsaj;l", UeCustomType.MSG);
+                        UserExperior.setCustomTag("Pass your app message/any error message here here", UeCustomType.MSG);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
