@@ -1,2 +1,2 @@
-# userexperior
+# UeWalletApp
 UserExperior Technologies Pvt. Ltd.
