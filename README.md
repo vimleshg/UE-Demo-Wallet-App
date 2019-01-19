@@ -22,4 +22,4 @@ UserExperior.setDeviceLocation - (Must use this API if you have gps feature enab
 
 SecureViewBucket.addInSecureViewBucket (Masking via API)
 
-Masking via Xml Feature
+Masking via Xml Feature - search for uesdk__secure_view_tag
