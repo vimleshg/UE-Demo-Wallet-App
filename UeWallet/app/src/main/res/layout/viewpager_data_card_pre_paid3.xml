@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:onClick="goToPrePid4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin">
+    <RelativeLayout
+        android:id="@+id/circle_20mb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:src="@drawable/primary_circle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:text="20 MB"
+           />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/time_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/circle_20mb"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:id="@+id/amt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 0"
+            android:textStyle="bold"
+           />
+
+        <TextView
+            android:layout_below="@id/amt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TalkTime"
+            />
+
+        <TextView
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:id="@+id/day1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 days"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="48dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_below="@id/amt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Validity"
+            android:layout_alignLeft="@id/day1"
+            />
+    </RelativeLayout>
+        <TextView
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_alignLeft="@+id/time_rl"
+            android:layout_below="@+id/time_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 MB 2G/3G/4G for 30 days"
+            android:padding="8dp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/circle_45mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:src="@drawable/primary_circle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:text="45 MB"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/time_r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/circle_45mb"
+            android:paddingLeft="8dp"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/amt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 0"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_below="@id/amt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TalkTime"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/day2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 days"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="48dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_below="@id/amt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Validity"
+                android:layout_alignLeft="@id/day2"
+                />
+        </RelativeLayout>
+        <TextView
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_alignLeft="@+id/time_r2"
+            android:layout_below="@+id/time_r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="45 MB 2G/3G/4G for 30 days"
+            android:padding="8dp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/circle_30mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:src="@drawable/primary_circle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:text="30 MB"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/time_r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/circle_30mb"
+            android:paddingLeft="8dp"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/amt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 0"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_below="@id/amt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TalkTime"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/day3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 days"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="48dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_below="@id/amt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Validity"
+                android:layout_alignLeft="@id/day3"
+                />
+        </RelativeLayout>
+        <TextView
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_alignLeft="@+id/time_r3"
+            android:layout_below="@+id/time_r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 MB 2G/3G/4G for 30 days"
+            android:padding="8dp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/circle_145mb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <ImageView
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:src="@drawable/primary_circle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/white"
+                android:text="145 MB"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/time_r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/circle_145mb"
+            android:paddingLeft="8dp"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/amt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹ 0"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_below="@id/amt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TalkTime"
+                />
+
+            <TextView
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:id="@+id/day4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30 days"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="48dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_below="@id/amt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Validity"
+                android:layout_alignLeft="@id/day4"
+                />
+        </RelativeLayout>
+        <TextView
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:layout_alignLeft="@+id/time_r4"
+            android:layout_below="@+id/time_r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="145 MB 2G/3G/4G for 30 days"
+            android:padding="8dp"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        />
+
+    </LinearLayout>
+</ScrollView>

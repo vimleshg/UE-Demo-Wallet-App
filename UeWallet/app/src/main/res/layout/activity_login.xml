@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:tag="@string/uesdk__secure_view_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp"
+        android:id="@+id/mPinET"
+        android:hint="Enter ID"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"/>
+
+    <Button
+        android:text="Log in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/login_btn_transparent"
+
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/mPinET"
+        android:layout_alignLeft="@+id/mPinET"
+        android:layout_alignStart="@+id/mPinET"
+        android:layout_alignRight="@+id/mPinET"
+        android:layout_alignEnd="@+id/mPinET" />
+
+</RelativeLayout>

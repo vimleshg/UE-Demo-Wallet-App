@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/parentFL"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@color/colorGray"
+             android:padding="16dp"
+             tools:context="com.userexperior.uewallet.fragment.DetailedStatementFragment">
+
+    <RelativeLayout
+        android:id="@+id/parentRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/fromDateET"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="From Date (dd/mm/yyyy)"
+            android:inputType="date"/>
+
+        <EditText
+            android:id="@+id/toDateET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/fromDateET"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/fromDateET"
+            android:layout_below="@+id/fromDateET"
+            android:layout_marginTop="21dp"
+            android:ems="10"
+            android:hint="To Date (dd/mm/yyyy)"
+            android:inputType="date"/>
+
+        <ImageView
+            android:id="@+id/emailStatementIV"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/downloadStatementIV"
+            app:srcCompat="@drawable/email_btn"/>
+
+        <ImageView
+            android:id="@+id/fromDateIV"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@drawable/calender"/>
+
+        <ImageView
+            android:id="@+id/toDateIV"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/toDateET"
+            app:srcCompat="@drawable/calender"/>
+
+        <Spinner
+            android:id="@+id/rowCountSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/allTransactionSpinner"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="34dp"/>
+
+        <Spinner
+            android:id="@+id/allTransactionSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/benificiarySpinner"
+            android:layout_marginTop="27dp"/>
+
+        <Spinner
+            android:id="@+id/benificiarySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/toDateET"
+            android:layout_marginTop="31dp"/>
+
+        <ImageView
+            android:id="@+id/submitStatementIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/emailStatementIV"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/submit_btn"/>
+
+        <ImageView
+            android:id="@+id/downloadStatementIV"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rowCountSpinner"
+            app:srcCompat="@drawable/download_btn"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/listContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+</FrameLayout>

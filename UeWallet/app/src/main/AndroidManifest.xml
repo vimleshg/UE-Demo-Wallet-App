@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.userexperior.uewallet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".application.UeWalletApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--UserExperior Metadata-->
+        <meta-data
+            android:name="@string/sdkVersionKey"
+            android:value="@string/user_experior_version_key" />
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BillPayElectricityActivity1" />
+        <activity android:name=".BillPayElectricityActivity2" />
+        <activity android:name=".BillPayElectricityActivity3" />
+        <activity android:name=".BillPayMobilePostPaidActivity1" />
+        <activity android:name=".BillPayMobilePostPaidActivity2" />
+        <activity android:name=".BillPayMobilePostPaidActivity3" />
+        <activity android:name=".MyStatementEmailConfirmActivity" />
+        <activity android:name=".MyStatementDownloadConfirmActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/NoActionBarAppTheme" />
+        <activity
+            android:name=".SendMoneyActivity"
+            android:theme="@style/NoActionBarAppTheme" />
+        <activity
+            android:name=".SendMoneyConfirmationActivity"
+            android:theme="@style/NoActionBarAppTheme" />
+        <activity
+            android:name=".DataCardPrePaid1"
+            android:label="Mobile Top-up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DatacardPrePaid2"
+            android:label="Mobile Top-up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DataCardPrePaid3"
+            android:label="Mobile Top-up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DataCardPrePaid4"
+            android:label="Mobile Top-up" />
+
+        <!-- dth -->
+        <activity
+            android:name=".Bus"
+            android:label="Bus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cab"
+            android:label="Cab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Events"
+            android:label="Events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Flight"
+            android:label="Flight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hotls"
+            android:label="Hotels"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Train"
+            android:label="Train"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- py to merchant -->
+
+        <activity
+            android:name=".PayToMerchantActivity"
+            android:label="Pay to Merchant"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MyProfileActivity" />
+        <activity android:name=".ManageBeneficiaryActivity1" />
+        <activity android:name=".AddBeneficiaryActivity" />
+        <activity android:name=".DebitCardHotlistingActivity" />
+        <activity android:name=".DebitCardHotlistingConfirmationActivity" />
+        <activity android:name=".EmailIDRegistrationActivity" />
+        <activity android:name=".EmailIDRegistrationConfirmationActivity" />
+        <activity android:name=".MobileNumberUpdationActivity" />
+        <activity android:name=".MobileNumberUpdationConfirmationActivity" />
+        <activity android:name=".AddBeneficiaryProceedActivity" />
+        <activity android:name=".AddBeneficiaryConfirmationActivity" />
+        <activity android:name=".LoadMoneyActivity" />
+        <activity android:name=".LoadMoneyPreConfirmationActivity" />
+
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"></activity>
+    </application>
+
+</manifest>

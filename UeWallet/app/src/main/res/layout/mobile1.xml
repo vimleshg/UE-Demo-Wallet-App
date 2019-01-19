@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    >
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <EditText
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:hint="Enter Mobile No."
+            android:inputType="number"
+            android:layout_height="?attr/actionBarSize"
+            />
+
+
+        <EditText
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:inputType="number"
+            android:hint="Enter Amount to Pay"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mob1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textColor="@color/colorPrimary"
+        android:textAllCaps="false"
+        android:background="@drawable/button_back"
+        />
+
+</LinearLayout>

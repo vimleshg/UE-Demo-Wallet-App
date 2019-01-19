@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UE Wallet</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="find_ifsc_underline"><u>Find IFSC</u></string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!--UserExperior Resources-->
+    <string name="sdkVersionKey">uesdk__versionKey</string>
+    <string name="user_experior_version_key">5671b758-1b2b-4aad-91c1-ce7d12e3eab5</string>
+    <string name="uesdk__secure_view_tag">uesdk__secure_view</string>
+    <!--<integer name="uesdk__idle_time_in_seconds">5</integer>
+    <string name="sdkIdleTimeTag">uesdk__time_to_go_idle</string>
+    <integer name="uesdk__app_session_timeout_in_seconds">120</integer>
+    <string name="appSessionTimeout">uesdk__app_session_timeout</string>-->
+</resources>

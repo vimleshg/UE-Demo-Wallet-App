@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:checked="false"
+        android:title="Home"/>
+
+    <item
+        android:checked="false"
+        android:title="Profile"/>
+
+    <item
+        android:checked="false"
+        android:title="Recharge"/>
+
+    <item
+        android:checked="false"
+        android:title="Bill Pay"/>
+
+    <item
+        android:checked="false"
+        android:title="Send Money"/>
+
+    <item
+        android:checked="false"
+        android:title="Manage Beneficiary"/>
+
+    <item
+        android:checked="false"
+        android:title="Request Money"/>
+
+    <item
+        android:checked="false"
+        android:title="Notification"/>
+
+    <item
+        android:checked="false"
+        android:title="Offers"/>
+
+    <item
+        android:checked="false"
+        android:title="Transaction History"/>
+
+    <item
+        android:checked="false"
+        android:title="Help"/>
+
+    <item
+        android:checked="false"
+        android:title="Sign Out"/>
+
+</menu>

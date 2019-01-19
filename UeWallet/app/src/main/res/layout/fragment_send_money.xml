@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.userexperior.uewallet.fragment.SendMoneyFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/selectAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_selector"
+            android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+            android:gravity="center_vertical"
+            android:padding="@dimen/space_15"
+            android:text="Select Account"
+            android:textSize="@dimen/text_medium"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TextView
+            android:id="@+id/selectMethod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_selector"
+            android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+            android:gravity="center_vertical"
+            android:padding="@dimen/space_15"
+            android:text="Select Method"
+            android:textSize="@dimen/text_medium"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/selectBeneficiary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent_selector"
+            android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+            android:gravity="center_vertical"
+            android:padding="@dimen/space_15"
+            android:text="Select Beneficiary"
+            android:textSize="@dimen/text_medium"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <FrameLayout
+            android:id="@+id/childContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</ScrollView>

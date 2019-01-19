@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryOld">#40377C</color>
+    <color name="colorPrimary">#009AD0</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#EDEDED</color>
+    <color name="colorLoginBlue">#515693</color>
+    <color name="arrow">#FF3333</color>
+    <color name="pager_strip_color">#5E5695</color>
+    <color name="colorProfileBlue">#413E91</color>
+
+    <color name="transparent_pressed">#33000000</color>
+</resources>
