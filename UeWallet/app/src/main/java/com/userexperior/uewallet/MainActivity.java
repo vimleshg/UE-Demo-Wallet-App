@@ -11,12 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.userexperior.UserExperior;
-
 import java.io.File;
 import java.io.IOException;
-//import main.java.com.mindscapehq.android.raygun4android.RaygunClient;
-//import main.java.com.mindscapehq.android.raygun4android.messages.RaygunUserInfo;
-//import com.appsee.Appsee;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -39,14 +35,6 @@ public class MainActivity extends AppCompatActivity
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-
-        //Appsee.start("75a64454f4434552ad03046860183055");
-
-
-        //RaygunClient.init(getApplicationContext());
-        //RaygunClient.attachExceptionHandler();
-        //RaygunClient.attachPulse(this);
 
         final EditText editText = (EditText) findViewById(R.id.mPinET);
         loginBtn = (Button) findViewById(R.id.loginBtn);
